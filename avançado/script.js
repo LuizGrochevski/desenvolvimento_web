@@ -96,5 +96,4 @@ setInterval(function(){
 
     drawCircle(circle);
 
-
 }, 40)
