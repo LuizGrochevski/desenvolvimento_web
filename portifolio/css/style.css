@@ -1,0 +1,34 @@
+#profile_card {
+    position: relative;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 50%;
+    top: 60px;
+
+}
+
+#profile_img {
+    border-radius: 50%;
+}
+
+
+header h1 {
+    width: 415px;
+    top: -100px;
+    position: relative;
+    margin-left: auto;
+}
+
+header p {
+    width: 415px;
+    position: relative;
+    margin-left: auto;
+    text-align: left;
+    top: -120px;
+}
+
+
+a {
+    text-decoration: none;
+    color: grey;
+}

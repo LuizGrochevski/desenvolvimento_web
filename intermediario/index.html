@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            Logo
+        </div>
+
+        <ul class="menu">
+            <li>Home</li>
+            <li>Cursos</li>
+            <li>Contato</li>
+        </ul>
+    </div>
+    <form method="POST" action="/cadastro">
+        CADASTRO
+        <input type="text" name="nome">
+        <input type="email" name="e-mail">
+        <input type="password" name="password">
+        <input type="submit">
+    </form>
+
+    <form method="GET" action="/cadastro">
+        <input type="radio" name="gender" value="M" checked> Masculino
+        <input type="radio" name="gender" value="F"> Feminino
+        <br>
+        <input type="checkbox" nome="Tecnologias" value="op1"> FLUTTER / DART
+        <input type="checkbox" nome="Tecnologias" value="op2"> JAVA
+        <input type="checkbox" nome="Tecnologias" value="op3"> JAVASCRIPT
+        <input type="checkbox" nome="Tecnologias" value="op4"> HTML
+        <input type="checkbox" nome="Tecnologias" value="op5"> CSS
+        <input type="checkbox" nome="Tecnologias" value="op6"> SQL
+        <br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+
+    <form method="GET" action="">
+        <select name="estado" size="2" multiple>
+            <option value="RJ"> Rio de Janeiro</option>
+            <option value="PR" selected>Parána</option>
+            <option value="SP">São Paulo</option>
+        </select>
+        <input type="submit">
+    </form>
+
+    <form method="GET" action="">
+        <input type="text" name="assunto"><br>
+        <textarea name="mensagem" cols="90" rows="5"></textarea>
+        <input type="submit">
+    </form>
+
+    <form method="GET" action="">
+
+    </form>
+    <div style="background-color: blue;">
+
+        <div> Esta é uma DIV normal</div>
+        <div> E aqui a história <div style="background-color: red; width: 500px;">de dentro</div> continua</div>
+
+    </div>
+
+    <div>
+
+        <p style="margin: 0;"> Este é um parágrafo normal</p>
+        <p style="margin: 0;"> E aqui a história continua</p>
+
+    </div>
+
+    <p>
+
+        Aqui eu tenho o inicio de um parágrafo <span
+            style="background-color: green; display: inline-block; width: 500px;">um SPAN no meio</span> E o fim do
+        parágrafo.
+    </p>
+
+    <p style="background-color: blue;">
+        Aqui eu tenho o inicio de um parágrafo
+    <div style="background-color: red;"> uma div no meio</div> E o fim do parágrafo.
+    </p>
+
+    <p>
+        Aqui eu tenho o inicio de um parágrafo <img src="img/imperial.jpg" alt="logo imperial" width="100"> E o fim do
+        parágrafo.
+    </p>
+
+    <div id="container">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, provident, debitis velit temporibus optio
+        quibusdam aliquid tenetur reiciendis neque recusandae eveniet voluptatibus, est sint deleniti expedita iste
+        cumque eaque minus.
+        <img src="img/imperial.jpg" alt="imperial" width="100px">
+    </div>
+
+    <div id="quadrado">
+
+    </div>
+    <img id="imagem" src="img/imperial.jpg" alt="imperial">
+
+    <div class="static quadrado bg-blue"></div>
+    <div class="relative quadrado bg-red"></div>
+    <div class="fixed quadrado bg-green"></div>
+    <div class="static retangulo bg-aqua"></div>
+    <div class="relative retangulo bg-blue">
+        <div class="static quadrado bg-coral"></div>
+        <div class="relative quadrado bg-green"></div>
+        <div class="absolute quadrado bg-red"></div>
+    </div>
+
+    <div class="bg-blue retangulo">
+
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-green sticky"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+        <div class="quadrado bg-red"></div>
+
+    </div>
+
+    <img id="imagem1" src="img/imperial.jpg" alt="imperial" width="100">
+    <div id="div">
+        <img id="imagem2" src="img/imperial.jpg" alt="imperial" width="100">
+        <p id="p">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis, magnam repudiandae, error voluptate
+            asperiores placeat quasi rem ab quisquam iste ad voluptatibus libero in laborum pariatur delectus dolore.
+            Itaque, atque.
+        </p>
+    </div>
+
+    <ul>
+
+        <li class="li">home</li>
+        <li class="li">cursos</li>
+        <li class="li">contato</li>
+
+    </ul>
+
+    <div class="header1">
+
+        <div class="content1">
+
+            Hello World
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

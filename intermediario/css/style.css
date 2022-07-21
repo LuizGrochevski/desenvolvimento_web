@@ -1,0 +1,267 @@
+body {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+form {
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    background-color: peru;
+    padding: 15px;
+    font-size: 18px;
+}
+
+input {
+    font-size: 14px;
+}
+
+.li {
+    float: left;
+    padding: 10px;
+    background-color: teal;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+#container {
+    color: black;
+    background-color: wheat;
+    width: 300px;
+    height: 100px;
+
+    overflow-y: scroll;
+}
+
+#quadrado {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+
+    margin-left: auto;
+
+}
+
+#imagem {
+    display: block;
+    margin: auto;
+}
+
+#p {
+    clear: both;
+}
+
+#imagem1 {
+    float: right;
+}
+
+#imagem2 {
+    float: left;
+}
+
+#div {
+    border: 1px solid black;
+    overflow: auto;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.static {
+    position: static;
+    left: 20px;
+}
+
+.relative {
+    position: relative;
+    top: 40px;
+}
+
+.fixed {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 60px;
+}
+
+.retangulo {
+    width: 200px;
+    height: 500px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+
+.bg-coral {
+    background-color: coral;
+}
+
+.bg-aqua {
+    background-color: aqua;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.header {
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    background: #a45757;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li {
+    float: left;
+    color: white;
+    margin-left: 15px;
+}
+
+.logo {
+    float: left;
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+
+    form {
+        background-color: crimson;
+    }
+
+    input {
+        float: none;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+    ;
+
+    .header {
+        background-color: coral;
+
+    }
+
+    .logo {
+        float: none;
+        text-align: center;
+    }
+
+    .menu {
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+    }
+
+    li {
+        float: none;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+    ;
+
+}
+
+@media screen and (max-width: 550px) {
+
+    form {
+        background-color: coral;
+    }
+
+    input {
+        float: none;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+    ;
+
+    .header {
+        background-color: crimson;
+
+    }
+
+    .logo {
+        float: none;
+        text-align: center;
+    }
+
+    .menu {
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+    }
+
+    li {
+        float: none;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+    ;
+
+}
+
+
+
+.header1 {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    background-color: gray;
+}
+
+.content1 {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-color: darkslategrey;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    color: white;
+    text-align: center;
+    font-size: 6vw;
+}
