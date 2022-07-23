@@ -1,6 +1,4 @@
 
-
-/*//////      Pseudo Elementos      //////
 h1::first-letter{
     color: blue;
     font-size: 5rem;
@@ -16,8 +14,8 @@ p::first-line{
 }
 
 li{
-    margin-left: 50px;
-    list-style-image: url(img.jpg);
+   /*margin-left: 50px;
+    list-style-image: url(img.jpg);*/
     list-style: none;
 }
 
@@ -38,17 +36,4 @@ p::selection{
     color: springgreen;
 
 }
-*/
-
-/*//////      Pseudo Elementos      /////// */
-
-input:focus{
-    color: red;
-}
-
-li:first-child{
-    color: crimson;
-}
-
-
 

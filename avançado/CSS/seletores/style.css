@@ -1,0 +1,29 @@
+#head p{
+    background-color: greenyellow;
+}
+
+
+div p{
+    background-color: blue;
+}
+
+
+p, header, h2{
+    background-color: crimson;
+}
+
+[width]{
+    background-color: blueviolet;
+}
+
+[title^="t"]{
+    background-color: palevioletred;
+}
+
+[title$="6"]{
+    background-color: cornflowerblue;
+}
+
+[title*="5"]{
+    background-color: teal;
+}
