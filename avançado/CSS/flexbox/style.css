@@ -1,8 +1,10 @@
 
 .container{
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    /*flex-wrap: wrap;
+    flex-flow: column-reverse wrap;*/
+    justify-content: space-evenly;
 
     background-color: darkgray;
     height: 400px;
@@ -10,17 +12,23 @@
 }
 
 .r1{
+    align-self: flex-end;
+
+    order: 2;
+    flex-grow: 1;
     background-color: red;
 }
 
 .r2{
+    order: 3;
     background-color: blue;
 }
 
 .r3{
+    order: 1;
+    flex-grow: 1;
     background-color: green;
 }
-
 
 .rect{
     width: 100px;
